@@ -1,3 +1,12 @@
-main a:hover {
+body {
+    background-color: #1f1f1f;
+    color: aliceblue;
+}
+
+main>section a:hover {
     background-color: aqua;
+}
+
+main>section a {
+    background-color: red;
 }
