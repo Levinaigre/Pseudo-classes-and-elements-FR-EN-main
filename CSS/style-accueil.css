@@ -1,12 +1,66 @@
 body {
-    background-color: #1f1f1f;
-    color: aliceblue;
+    /* background-color: #1f1f1f; */
+    /* color: aliceblue; */
+    height: 1000px;
+    width:auto;
+    
 }
-
+header {
+    height: 15%;
+}
+main {
+    height: 75%;
+}
+footer {
+    height: 10%;
+}
 main>section a:hover {
     background-color: aqua;
 }
 
 main>section a {
     background-color: red;
+}
+
+.line {
+    margin: 5px;
+    /* height: 1px; */
+    border: 1px solid black;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    /* margin: 1rem 0; */
+    
+}
+.container {
+    width: 40%;
+    align-content: center;
+}
+.flex {
+    display: flex;
+    /* justify-content: space-between; */
+    font-size: 2rem;
+}
+
+.p-header {
+    margin: 0 5px;
+}
+
+.container-header {
+    width: 95%;
+    margin: 0 auto;
+    align-items: center;
+    /* display: flex; */
+    /* justify-items: center; */
+}
+
+h1 {
+    font-size: 3rem;
 }
