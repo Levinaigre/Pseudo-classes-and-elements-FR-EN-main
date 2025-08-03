@@ -1,19 +1,44 @@
 body {
     /* background-color: #1f1f1f; */
     /* color: aliceblue; */
-    height: 1000px;
-    width:auto;
-    
+    height: 990px;
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+
 }
+
 header {
     height: 15%;
 }
+
+header>div:first-child {
+    justify-content: center;
+}
+
 main {
     height: 75%;
 }
+
 footer {
     height: 10%;
 }
+
+.align {
+
+    align-items: end;
+    display: flex;
+    /* justify-content: center; */
+
+}
+
+footer>div {
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+
 main>section a:hover {
     background-color: aqua;
 }
@@ -37,15 +62,17 @@ main>section a {
     display: flex;
     justify-content: space-between;
     /* margin: 1rem 0; */
-    
+
 }
+
 .container {
     width: 40%;
     align-content: center;
 }
+
 .flex {
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: center;
     font-size: 2rem;
 }
 
@@ -63,4 +90,10 @@ main>section a {
 
 h1 {
     font-size: 3rem;
+}
+
+.p-main {
+    text-align: center;
+    margin-top: 10%;
+
 }
