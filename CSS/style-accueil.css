@@ -6,9 +6,6 @@ body {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    
-
-
 }
 
 header {
@@ -34,20 +31,11 @@ footer {
     align-items: end;
     display: flex;
     /* justify-content: center; */
-
 }
 
 footer>div {
     width: 100%;
     margin-bottom: 0.5rem;
-}
-
-main>section a:hover {
-    background-color: aqua;
-}
-
-main>section a {
-    background-color: red;
 }
 
 .line {

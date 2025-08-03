@@ -1,0 +1,120 @@
+body {
+    background-color: #f9fff0;
+    /* color: aliceblue; */
+    /* height: 990px; */
+    width: 96%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* header d/but */
+.container-header {
+    width: 95%;
+    margin: 0 auto;
+    align-items: center;
+    /* display: flex; */
+    /* justify-items: center; */
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    /* margin: 1rem 0; */
+
+}
+
+.container {
+    width: 40%;
+    align-content: center;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.p-header {
+    margin: 0 5px;
+}
+
+header > .header-flex > .container:nth-child(2) > .flex > a[href="index-FR.html"]{
+    /* color: rgb(155, 155, 155); */
+    color: blue;
+}
+/* header > .header-flex > .container:nth-child(2) > .flex > a[href="index-EN.html"]{
+    color: rgb(155, 155, 155);
+    color: blue;
+} */
+
+header a {
+    text-decoration: none;
+    color: rgb(155, 155, 155);
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+header>div:first-child {
+    justify-content: center;
+}
+
+header {
+    height: 15%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* header div:first-child a{
+    color: aqua;
+} */
+/* header fin */
+
+
+/* footer d/but */
+.align {
+
+    align-items: end;
+    display: flex;
+    /* justify-content: center; */
+
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.line {
+    margin: 5px;
+    /* height: 1px; */
+    border: 1px solid black;
+}
+
+footer {
+    height: 10%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+footer>div {
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+/* footer fin */
+
+
+/* aside d/but */
+
+/* aside fin */
+
+
+/* main debut */
+main>section a:hover {
+    background-color: aqua;
+}
+
+main>section a {
+    background-color: red;
+}
+/* main fin */
